@@ -1,0 +1,133 @@
+
+.nav {
+    display: flex;
+    width:90%;
+    padding:40px;
+}
+.nav .left p{
+    font-size: 30px;
+     line-height: 0px;
+}
+.nav img{
+   
+    width:230px;
+    height:66px;
+}
+.left{
+    float:left;
+    width:50%;
+    display:flex;
+}
+.right{
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+    width:50%;
+    display:flex;
+}
+.right button{
+    background-color: #446973;
+    color:white;
+    font-size: 15px;
+   margin-left:7%;
+    width:223px;
+    height:49px;
+    border-radius: 23.5px;
+}
+.right .inner{
+    display: flex;;
+    margin-left: 50%;
+}
+.right .inner p{
+    margin-left: 10px;
+}
+.banner{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 50px;
+}
+.bannercont{
+    background-image: url("banner.jpg"); 
+    display: block;
+    width:70%;
+    padding:100px;
+    height:auto;
+    display: flex;
+     margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.bannercont img{
+    width:50%;
+    height:50;
+    
+}
+.banner-content .para{
+    display: flex;
+
+} 
+.banner-content .para p{
+    margin-left:8px;
+}
+.img-cont{
+    padding:10px;
+   background-image: url("bg.png"); 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width:83%;
+    border-radius: 20px;
+    
+     
+}
+.img-cont .image {
+    width:50%;
+   border-radius: 15px;
+}
+.img-cont .image img {
+    width:95%;
+   border-radius: 15px;
+}
+
+.img-cont .paragraph{
+ width:50%;
+}
+
+.card1{
+    width:33%;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.15);
+    
+}
+.card1 img{
+width:100%;
+border-radius: 20px;
+}
+.card1 p{
+    padding:10px;
+}
+.card1 h3{
+    padding: 10px;
+}
+.cards{
+    margin-top: 20px;
+    display: flex;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rgba{
+    border-radius: 20px;
+    padding:10px;
+    font-size: 15px;
+    width:230px;
+    color:white;
+     background: linear-gradient(90deg, #4A90E2, #4FD1A1);
+}
